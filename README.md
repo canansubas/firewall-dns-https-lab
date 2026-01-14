@@ -78,11 +78,11 @@ iptables -A OUTPUT -p tcp --dport 53 -j DROP
 ```
 Observed Behavior
 
-```ping google.com``` failed with name resolution error
+- ```ping google.com``` failed with name resolution error
 
-```ping 8.8.8.8``` remained successful
+- ```ping 8.8.8.8``` remained successful
 
-```tcpdump``` showed DNS requests without responses
+- ```tcpdump``` showed DNS requests without responses
 
 Conclusion
 
